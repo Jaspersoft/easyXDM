@@ -2,8 +2,8 @@
 (function (factory) {
     "use strict";
 
-    define(["json3", "logger"], factory);
-}(function(json, logger) {
+    define(["logger"], factory);
+}(function(logger) {
     if (typeof document === "undefined") {
         //Running in non browser environment (probably it's optimization process), return immediately
         return {};

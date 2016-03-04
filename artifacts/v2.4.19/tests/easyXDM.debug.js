@@ -5,7 +5,7 @@
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -809,7 +809,7 @@ function removeFromStack(element){
 /** 
  * @class easyXDM
  * A javascript library providing cross-browser, cross-domain messaging/RPC.
- * @version 2.4.19.1
+ * @version 2.4.19.0
  * @singleton
  */
 apply(easyXDM, {
@@ -817,7 +817,7 @@ apply(easyXDM, {
      * The version of the library
      * @type {string}
      */
-    version: "2.4.19.1",
+    version: "2.4.19.0",
     /**
      * This is a map containing all the query parameters passed to the document.
      * All the values has been decoded using decodeURIComponent.
@@ -871,7 +871,7 @@ apply(easyXDM, {
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1045,7 +1045,7 @@ _trace = debug.getTracer("EasyXDM.{Private}");
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1110,7 +1110,7 @@ easyXDM.DomHelper = {
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1183,7 +1183,7 @@ easyXDM.DomHelper = {
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1298,7 +1298,7 @@ easyXDM.Socket = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1467,7 +1467,7 @@ easyXDM.Rpc = function(config, jsonRpcConfig){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1560,7 +1560,7 @@ easyXDM.stack.SameOriginTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1778,7 +1778,7 @@ easyXDM.stack.FlashTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1920,7 +1920,7 @@ easyXDM.stack.PostMessageTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2017,7 +2017,7 @@ easyXDM.stack.FrameElementTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2174,7 +2174,7 @@ easyXDM.stack.NameTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2337,7 +2337,7 @@ easyXDM.stack.HashTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2407,7 +2407,7 @@ easyXDM.stack.ReliableBehavior = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2557,7 +2557,7 @@ easyXDM.stack.QueueBehavior = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2639,7 +2639,7 @@ easyXDM.stack.VerifyBehavior = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

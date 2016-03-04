@@ -1,7 +1,7 @@
 /**
  * easyXDM
  * http://easyxdm.net/
- * Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+ * Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,8 +24,8 @@
 (function (factory) {
     "use strict";
 
-    define(["json3", "logger"], factory);
-}(function(json, logger) {
+    define(["logger"], factory);
+}(function(logger) {
     if (typeof document === "undefined") {
         //Running in non browser environment (probably it's optimization process), return immediately
         return {};
@@ -40,7 +40,7 @@
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -817,7 +817,7 @@ function removeFromStack(element){
 /** 
  * @class easyXDM
  * A javascript library providing cross-browser, cross-domain messaging/RPC.
- * @version 2.4.19.1
+ * @version 2.4.19.0
  * @singleton
  */
 apply(easyXDM, {
@@ -825,7 +825,7 @@ apply(easyXDM, {
      * The version of the library
      * @type {string}
      */
-    version: "2.4.19.1",
+    version: "2.4.19.0",
     /**
      * This is a map containing all the query parameters passed to the document.
      * All the values has been decoded using decodeURIComponent.
@@ -872,7 +872,7 @@ apply(easyXDM, {
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -946,7 +946,7 @@ _trace = debug.getTracer("EasyXDM.{Private}");
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1011,7 +1011,7 @@ easyXDM.DomHelper = {
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1084,7 +1084,7 @@ easyXDM.DomHelper = {
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1199,7 +1199,7 @@ easyXDM.Socket = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1368,7 +1368,7 @@ easyXDM.Rpc = function(config, jsonRpcConfig){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1461,7 +1461,7 @@ easyXDM.stack.SameOriginTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1676,7 +1676,7 @@ easyXDM.stack.FlashTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1818,7 +1818,7 @@ easyXDM.stack.PostMessageTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -1915,7 +1915,7 @@ easyXDM.stack.FrameElementTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2071,7 +2071,7 @@ easyXDM.stack.NameTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2234,7 +2234,7 @@ easyXDM.stack.HashTransport = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2304,7 +2304,7 @@ easyXDM.stack.ReliableBehavior = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2454,7 +2454,7 @@ easyXDM.stack.QueueBehavior = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2533,7 +2533,7 @@ easyXDM.stack.VerifyBehavior = function(config){
 //
 // easyXDM
 // http://easyxdm.net/
-// Copyright(c) 2009-2011, ??yvind Sean Kinsey, oyvind@kinsey.no.
+// Copyright(c) 2009-2011, Øyvind Sean Kinsey, oyvind@kinsey.no.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -2627,8 +2627,6 @@ easyXDM.stack.RpcBehavior = function(proxy, config){
             }
             // Send the method request
             _send(message);
-            // return request id to calling component to allow abort this request later.
-            return message.id;
         };
     }
     
@@ -2703,10 +2701,6 @@ easyXDM.stack.RpcBehavior = function(proxy, config){
             var data = serializer.parse(message);
             if (data.method) {
                 trace("received request to execute method " + data.method + (data.id ? (" using callback id " + data.id) : ""));
-                if(data && data.params && data.params[0] && typeof data.params[0] === "object"){
-                    // forward request id to remote page to allow abort this request later.
-                    data.params[0].id = data.id;
-                }
                 // A method call from the remote end
                 if (config.handle) {
                     config.handle(data, _send);
