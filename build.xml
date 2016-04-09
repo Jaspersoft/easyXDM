@@ -4,7 +4,7 @@
 	<property file="build.secret.properties"/>
 	<property name="project.build.artifactdir" value="./artifacts/"/>
 	<property name="project.build.publishdir" value="./artifacts/"/>
-	<property name="project.build.version" value="2.4.19"/>
+	<property name="project.build.version" value="2.4.20"/>
 	
 	<!-- Setup classpath for js-build-tools ant tasks -->
 	<path id="js-build-tasks.classpath">
@@ -42,6 +42,27 @@
 	<target name="build" depends="clean,jslint">
 		<buildnumber/>
 		<mkdir dir="work"/>
+		
+		<concat destfile="work/easyXDM.jasper.js">	
+			<fileset dir="." includes="${project.src.dir}/begin_scope.txt" />
+			<fileset dir="." includes="${project.src.dir}/Core.js" />
+			<fileset dir="." includes="${project.src.dir}/Debug.js" />
+			<fileset dir="." includes="${project.src.dir}/DomHelper.js" />
+			<fileset dir="." includes="${project.src.dir}/Fn.js" />
+			<fileset dir="." includes="${project.src.dir}/Socket.js" />
+			<fileset dir="." includes="${project.src.dir}/Rpc.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/SameOriginTransport.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/FlashTransport.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/PostMessageTransport.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/FrameElementTransport.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/NameTransport.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/HashTransport.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/ReliableBehavior.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/QueueBehavior.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/VerifyBehavior.js" />
+			<fileset dir="." includes="${project.src.dir}/stack/RpcBehavior.js" />
+			<fileset dir="." includes="${project.src.dir}/end_scope.txt" />
+		</concat>
 		
 		<concat destfile="work/easyXDM.combined.js">	
 			<fileset dir="." includes="${project.src.dir}/begin_scope.txt" />
